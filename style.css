@@ -20,7 +20,6 @@
     url('/Users/SiphesihleMadondo/Practice_growth_model/Your\ Score.png') 0% 0%
     no-repeat padding-box;
   opacity: 1;
-  
 }
 
 .summary-header {
@@ -100,4 +99,58 @@
 .Booster-Points {
   position: relative;
   left: 36px;
+}
+
+#Group77020_Image {
+  position: absolute;
+  left: 1000px;
+  top: 10px;
+  width: 307px;
+  height: 281px;
+  opacity: 1;
+}
+
+#IRR_Image {
+  position: absolute;
+  left: 1135px;
+  top: 160px;
+  width: 49px;
+  height: 33px;
+  opacity: 1;
+}
+
+#Path27793_Image {
+  position: absolute;
+  left: 1140px;
+  top: 25px;
+  width: 29px;
+  height: 23px;
+  opacity: 1;
+}
+
+#Path27792_Image {
+  position: absolute;
+  left: 1035px;
+  top: 225px;
+  width: 14px;
+  height: 24px;
+}
+
+#Group77135_Image {
+  position: absolute;
+  left: 1250px;
+  top: 225px;
+  width: 23px;
+  height: 23px;
+}
+
+#Group77141_Image_v1 {
+  position: absolute;
+  left: 1070px;
+  top: 110px;
+  width: 16px;
+  height: 101px;
+  transform: rotate(30deg);
+  background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
