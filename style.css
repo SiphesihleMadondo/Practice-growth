@@ -17,7 +17,7 @@
 
   width: 75px;
   background: transparent
-    url('/Users/SiphesihleMadondo/Practice_growth_model/Your\ Score.png') 0% 0%
+    url('Your\ Score.png') 0% 0%
     no-repeat padding-box;
   opacity: 1;
 }
@@ -30,7 +30,7 @@
   height: 31px;
   color: #000000;
   background: transparent
-    url('/Users/SiphesihleMadondo/Practice_growth_model/Summary.png') 0% 0%
+    url('Summary.png') 0% 0%
     no-repeat padding-box;
   opacity: 100;
 }
@@ -122,7 +122,7 @@
 #Path27793_Image {
   position: absolute;
   left: 1140px;
-  top: 25px;
+  top: 35px;
   width: 29px;
   height: 23px;
   opacity: 1;
@@ -154,3 +154,28 @@
   background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+
+#Group77141_Image_v2{
+  position: absolute;
+  left: 1190px;
+  top: 70px;
+  width: 16px;
+  height: 101px;
+  transform: rotate(150deg);
+  background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#Group77141_Image_v3{
+  position: absolute;
+  left: 1165px;
+  top: 196px;
+  width: 16px;
+  height: 101px;
+  transform: rotate(269deg);
+  background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+
