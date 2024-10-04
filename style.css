@@ -16,9 +16,7 @@
   height: 20px;
 
   width: 75px;
-  background: transparent
-    url('Your\ Score.png') 0% 0%
-    no-repeat padding-box;
+  background: transparent url('Score.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -29,9 +27,7 @@
   width: 110px;
   height: 31px;
   color: #000000;
-  background: transparent
-    url('Summary.png') 0% 0%
-    no-repeat padding-box;
+  background: transparent url('Summary.png') 0% 0% no-repeat padding-box;
   opacity: 100;
 }
 
@@ -79,9 +75,9 @@
   opacity: 1;
 }
 
-.progress {
+.Points {
   position: relative;
-  left: 36px;
+  left: 2%;
   top: 58px;
   background-color: #fa3352;
   height: 44px;
@@ -101,7 +97,7 @@
   left: 36px;
 }
 
-#Group77020_Image {
+#group_icon {
   position: absolute;
   left: 1000px;
   top: 10px;
@@ -110,72 +106,387 @@
   opacity: 1;
 }
 
-#IRR_Image {
-  position: absolute;
-  left: 1135px;
-  top: 160px;
-  width: 49px;
-  height: 33px;
+.your-summary-content {
+  position: relative;
+  left: 36px;
+  top: 16px;
+  height: 20px;
+
+  width: 75px;
+  background: transparent url('Summary_small.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-#Path27793_Image {
-  position: absolute;
-  left: 1140px;
+.current_status {
+  position: relative;
+  top: 18px;
+  left: 36px;
+  height: 31px;
+  color: #000000;
+  background: transparent url('Current_status.png') 0% 0% no-repeat padding-box;
+  opacity: 100;
+}
+
+.current_status_bg {
+  position: relative;
+  top: 80px;
+  width: 1527px;
+  height: 261px;
+  background: transparent url('img/bg copy 2.png') 0% 0% no-repeat padding-box;
+  box-shadow: 5px 10px #e1dfe9;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.status {
+  position: relative;
+  top: 25px;
+  left: 36px;
+  height: 30px;
+
+  background: transparent url('status.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.blue_status_circle {
+  position: relative;
   top: 35px;
-  width: 29px;
+  left: 130px;
+  width: 69px;
+  height: 69px;
+  /* UI Properties */
+  background: transparent url('blue_status_circle.png') 0% 0% no-repeat
+    padding-box;
+  border: 1px solid #e9e7ee;
+  opacity: 1;
+}
+
+.group_icon_small {
+  position: relative;
+  top: -10px;
+  left: 140px;
+  width: 51px;
+  height: 46px;
+
+  background: transparent url('group_icon_small.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.blue_status {
+  position: absolute;
+  top: 601px;
+  left: 145px;
+  width: 131px;
+  height: 27px;
+  /* UI Properties */
+  background: transparent url('blue_status.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.silver_status {
+  position: absolute;
+  top: 601px;
+  left: 518.14px;
+  width: 106px;
+  height: 27px;
+  /* UI Properties */
+  background: transparent url('silver_status.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.gold_status {
+  position: absolute;
+  top: 601px;
+  left: 902.86px;
+  width: 106px;
+  height: 27px;
+  /* UI Properties */
+  background: transparent url('gold_status.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.platinum_status {
+  position: absolute;
+  top: 601px;
+  left: 1246px;
+  width: 138px;
+  height: 27px;
+  /* UI Properties */
+  background: transparent url('platinum_status.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.fourthy_points_silver_status {
+  position: absolute;
+  top: 645px;
+  left: 36px;
+  width: 642px;
   height: 23px;
+
+  background: transparent url('fourthy_points_silver_status.png') 0% 70%
+    no-repeat padding-box;
   opacity: 1;
 }
 
-#Path27792_Image {
+.client_experience_summary {
   position: absolute;
-  left: 1035px;
-  top: 225px;
-  width: 14px;
-  height: 24px;
-}
+  top: 718px;
+  left: -80px;
+  width: 600px;
+  height: 411px;
 
-#Group77135_Image {
-  position: absolute;
-  left: 1250px;
-  top: 225px;
-  width: 23px;
-  height: 23px;
-}
-
-#Group77141_Image_v1 {
-  position: absolute;
-  left: 1070px;
-  top: 110px;
-  width: 16px;
-  height: 101px;
-  transform: rotate(30deg);
-  background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
+  background: transparent url('client_experience_summary.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
-#Group77141_Image_v2{
+.sustainable_growth_summary {
   position: absolute;
-  left: 1190px;
-  top: 70px;
-  width: 16px;
-  height: 101px;
-  transform: rotate(150deg);
-  background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
+  top: 718px;
+  left: 425px;
+  width: 650px;
+  height: 411px;
+
+  background: transparent url('sustainable_growth_summary.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
-#Group77141_Image_v3{
+.Quality_Practice_Summary {
   position: absolute;
-  left: 1165px;
-  top: 196px;
-  width: 16px;
-  height: 101px;
-  transform: rotate(269deg);
-  background: transparent url('Group\ 77141.png') 0% 0% no-repeat padding-box;
+  top: 718px;
+  left: 930px;
+  width: 665px;
+  height: 411px;
+  background: transparent url('Quality_Practice_Summary.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
+.large_tree {
+  position: relative;
+  top: 20px;
+  left: 350px;
+  height: 450px;
+}
 
+.large_house {
+  position: relative;
+  top: 35px;
+  left: 380px;
+  width: 261px;
+  height: 440px;
+}
 
+.b1_second_background {
+  position: absolute;
+  top: 1159px;
+  left: -80px;
+  width: 589px;
+  height: 245px;
+  border-radius: 25px;
+
+  background: transparent url('First\ Booster/b1_second_background.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+.b1_background {
+  position: absolute;
+  top: 1059px;
+  left: -80px;
+  width: 589px;
+  height: 345px;
+
+  background: transparent url('First Booster/b1_background.png') 0% 0% no-repeat
+    padding-box;
+  box-shadow: 2px 13px 54px #695f9726;
+  border-radius: 25px;
+  opacity: 1;
+}
+
+.booster_one{
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  width: 61px;
+  height: 20px;
+
+  background: transparent url('First Booster/Booster_one.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.booster_two{
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  width: 70px;
+  height: 20px;
+
+  background: transparent url('Second Booster/Booster_two.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.booster_three{
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  width: 70px;
+  height: 20px;
+
+  background: transparent url('Third Booster/Booster_three.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.LWDP_Count{
+  position: absolute;
+  top: 105px;
+  left: 110px;
+  width: 132px;
+  height: 31px;
+
+  background: transparent url('First Booster/LWDP_Count.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.HouseviewInvestments{
+  position: absolute;
+  top: 105px;
+  left: 110px;
+  width: 262px;
+  height: 31px;
+
+  background: transparent url('Second Booster/HouseviewInvestments.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.Practice_IRR{
+  position: absolute;
+  top: 105px;
+  left: 110px;
+  width: 262px;
+  height: 31px;
+
+  background: transparent url('Third Booster/Practice_IRR.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.B1_Points {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  width: 347px;
+  height: 84px;
+
+  background: transparent url('First Booster/Points.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.b2_Points{
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  width: 347px;
+  height: 84px;
+
+  background: transparent url('Second Booster/Points.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+
+}
+
+.Points_Earned {
+  position: absolute;
+  top: 205px;
+  left: 110px;
+  width: 338px;
+  height: 25px;
+
+  background: transparent url('First Booster/Points_Earned.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.View_Details_bacground {
+  position: absolute;
+  top: 265px;
+  left: 60px;
+  width: 177px;
+  height: 30px;
+
+  text-align: left;
+  font: normal normal normal 14px/60px Poppins;
+  letter-spacing: 0px;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 1;
+}
+
+.View_Details {
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  width: 98px;
+  height: 20px;
+
+  background: transparent url('First Booster/View_detail.png') 0% 0% no-repeat
+    padding-box;
+  /* background-color: #e1dfe9; */
+  opacity: 1;
+}
+
+.NavLogo {
+  position: absolute;
+  top: 68px;
+  left: 80px;
+  width: 489px;
+  height: 245px;
+
+  background: transparent url('First Booster/Nav_logo.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.triangles {
+
+  position: absolute;
+  top: 29px;
+  left: 430px;
+  width: 33px;
+  height: 188px;
+
+  background: transparent url('First Booster/triangles.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.b2_background{
+  position: absolute;
+  top: 1060px;
+  left: 431px;
+  width: 600px;
+  height: 345px;
+  border-radius: 25px;
+
+  background: transparent url('Second Booster/background.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+.b3_background{
+  position: absolute;
+  top: 1060px;
+  left: 940px;
+  width: 600px;
+  height: 345px;
+  border-radius: 25px;
+
+  background: transparent url('Third Booster/b3_background.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
