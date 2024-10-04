@@ -401,6 +401,18 @@
 
 }
 
+.b3_Points{
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  width: 347px;
+  height: 84px;
+
+  background: transparent url('Third Booster/Points.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
 .Points_Earned {
   position: absolute;
   top: 205px;
