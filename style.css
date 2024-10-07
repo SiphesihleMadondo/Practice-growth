@@ -1,6 +1,8 @@
 @import '../node_modules/bootstrap/scss/functions';
 
 .row {
+
+  position: relative;
   left: 332px;
   width: 1522px;
   height: 348px;
@@ -129,7 +131,8 @@
 
 .current_status_bg {
   position: relative;
-  top: 80px;
+  top: 249px;
+  left: 332px;
   width: 1527px;
   height: 261px;
   background: transparent url('img/bg copy 2.png') 0% 0% no-repeat padding-box;
@@ -174,8 +177,8 @@
 }
 
 .blue_status {
-  position: absolute;
-  top: 601px;
+  position: relative;
+  top: 60px;
   left: 145px;
   width: 131px;
   height: 27px;
@@ -185,8 +188,8 @@
 }
 
 .silver_status {
-  position: absolute;
-  top: 601px;
+  position: relative;
+  top: 30px;
   left: 518.14px;
   width: 106px;
   height: 27px;
@@ -196,8 +199,7 @@
 }
 
 .gold_status {
-  position: absolute;
-  top: 601px;
+  position: relative;
   left: 902.86px;
   width: 106px;
   height: 27px;
@@ -207,8 +209,8 @@
 }
 
 .platinum_status {
-  position: absolute;
-  top: 601px;
+  position: inherit;
+  top: -30px;
   left: 1246px;
   width: 138px;
   height: 27px;
@@ -218,9 +220,9 @@
 }
 
 .fourthy_points_silver_status {
-  position: absolute;
-  top: 645px;
-  left: 36px;
+  position: relative;
+  top: 10px;
+  left: 40px;
   width: 642px;
   height: 23px;
 
@@ -231,8 +233,8 @@
 
 .client_experience_summary {
   position: absolute;
-  top: 718px;
-  left: -80px;
+  top: 1px;
+  left: 230px;
   width: 600px;
   height: 411px;
 
@@ -243,8 +245,8 @@
 
 .sustainable_growth_summary {
   position: absolute;
-  top: 718px;
-  left: 425px;
+  top: 1px;
+  left: 760px;
   width: 650px;
   height: 411px;
 
@@ -254,14 +256,27 @@
 }
 
 .Quality_Practice_Summary {
-  position: absolute;
-  top: 718px;
-  left: 930px;
+  position: relative;
+  top: 1px;
+  left: 1280px;
   width: 665px;
   height: 411px;
   background: transparent url('Quality_Practice_Summary.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
+}
+
+.summary{
+
+  position: relative;
+  top: 300px;
+  
+}
+
+.booster{
+  position: relative;
+  top: 300px;
+ 
 }
 
 .large_tree {
@@ -294,8 +309,8 @@
 
 .b1_background {
   position: absolute;
-  top: 1059px;
-  left: -80px;
+  top: 10px;
+  left: 230px;
   width: 589px;
   height: 345px;
 
@@ -479,8 +494,8 @@
 
 .b2_background{
   position: absolute;
-  top: 1060px;
-  left: 431px;
+  top: 10px;
+  left: 760px;
   width: 600px;
   height: 345px;
   border-radius: 25px;
@@ -492,8 +507,8 @@
 
 .b3_background{
   position: absolute;
-  top: 1060px;
-  left: 940px;
+  top: 10px;
+  left: 1280px;
   width: 600px;
   height: 345px;
   border-radius: 25px;
@@ -502,3 +517,4 @@
     no-repeat padding-box;
   opacity: 1;
 }
+
