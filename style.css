@@ -1,7 +1,6 @@
 @import '../node_modules/bootstrap/scss/functions';
 
 .row {
-
   position: relative;
   left: 332px;
   width: 1522px;
@@ -70,7 +69,7 @@
   left: 75px;
   width: 463px;
   height: 43px;
-  
+
   text-align: left;
   font: normal normal bold 30px/60px Poppins;
   letter-spacing: 0px;
@@ -95,6 +94,11 @@
   left: 36px;
 }
 
+.booster{
+  position: relative;
+  top: 320px;
+}
+
 .Booster-Points {
   position: relative;
   left: 36px;
@@ -116,17 +120,28 @@
   height: 20px;
 
   width: 75px;
-  background: transparent url('Summary_small.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.summary_header {
+  display: block;
+  width: 69px;
+  height: 10px;
+  font-family: Poppins, Medium;
+  font-size: 14px;
+  color: #707070;
   opacity: 1;
 }
 
 .current_status {
-  position: relative;
-  top: 18px;
-  left: 36px;
+  position: absolute;
+  top: 1px;
+  width: 259px;
   height: 31px;
+  font-family: Poppins, Bold;
+  font-size: 22px;
   color: #000000;
-  background: transparent url('Current_status.png') 0% 0% no-repeat padding-box;
+
   opacity: 100;
 }
 
@@ -144,7 +159,7 @@
 
 .status {
   position: relative;
-  top: 25px;
+  top: 50px;
   left: 36px;
   height: 30px;
 
@@ -154,12 +169,13 @@
 
 .blue_status_circle {
   position: relative;
-  top: 35px;
-  left: 130px;
+  top: 67px;
+  left: 175px;
   width: 69px;
   height: 69px;
 
-  background: transparent url('blue_status_circle.png') 0% 0% no-repeat padding-box;
+  background: transparent url('blue_status_circle.png') 0% 0% no-repeat
+    padding-box;
   border: 1px solid #e9e7ee;
   opacity: 1;
 }
@@ -167,202 +183,221 @@
 .group_icon_small {
   position: relative;
   top: -10px;
-  left: 140px;
+  left: 150px;
   width: 51px;
   height: 46px;
 
-  background: transparent url('group_icon_small.png') 0% 0% no-repeat padding-box;
+  background: transparent url('group_icon_small.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
 .blue_status {
   position: relative;
-  top: 60px;
-  left: 145px;
+  top: 75px;
+  left: 170px;
   width: 131px;
   height: 27px;
-  
-  background: transparent url('blue_status.png') 0% 0% no-repeat padding-box;
+  font-family: Poppins, Medium;
+  font-size: 16px;
+  color: #707070;
   opacity: 1;
 }
 
 .silver_status {
   position: relative;
-  top: 30px;
+  top: 50px;
   left: 518.14px;
   width: 106px;
   height: 27px;
-
-  background: transparent url('silver_status.png') 0% 0% no-repeat padding-box;
+  font-family: Poppins, Medium;
+  font-size: 16px;
+  color: #707070;
   opacity: 1;
 }
 
 .gold_status {
   position: relative;
+  top: 25px;
   left: 902.86px;
   width: 106px;
   height: 27px;
+  font-family: Poppins, Medium;
+  font-size: 16px;
+  color: #707070;
 
-  background: transparent url('gold_status.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .platinum_status {
-  position: inherit;
-  top: -30px;
+  position: relative;
+  top: -5px;
   left: 1246px;
   width: 138px;
   height: 27px;
+  font-family: Poppins, Medium;
+  font-size: 16px;
+  color: #707070;
 
-  background: transparent url('platinum_status.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .fourthy_points_silver_status {
   position: relative;
-  top: 10px;
+  top: 20px;
   left: 40px;
   width: 642px;
   height: 23px;
-
-  background: transparent url('fourthy_points_silver_status.png') 0% 70% no-repeat padding-box;
+  font-family: Poppins, Medium;
+  font-size: 16px;
+  color: #000000;
   opacity: 1;
 }
 
 .client_experience_summary {
   position: absolute;
   top: 1px;
-  left: 230px;
-  width: 600px;
-  height: 411px;
-
-  background: transparent url('client_experience_summary.png') 0% 0% no-repeat padding-box;
+  left: 370px;
+  width: 450px;
+  height: 350px;
+  border-radius: 25px;
   opacity: 1;
 }
 
 .sustainable_growth_summary {
   position: absolute;
   top: 1px;
-  left: 760px;
-  width: 650px;
-  height: 411px;
+  left: 900px;
+  width: 450px;
+  height: 350px;
 
-  background: transparent url('sustainable_growth_summary.png') 0% 0% no-repeat padding-box;
+  border-radius: 25px;
   opacity: 1;
 }
 
 .Quality_Practice_Summary {
   position: relative;
   top: 1px;
-  left: 1280px;
-  width: 665px;
-  height: 411px;
-  background: transparent url('Quality_Practice_Summary.png') 0% 0% no-repeat padding-box;
+  left: 1420px;
+  width: 450px;
+  height: 350px;
+ 
+  border-radius: 25px;
   opacity: 1;
 }
 
+.battery_icon_clientExp {
+  position: absolute;
+  top: 18px;
+  left: 209px;
+  width: 14px;
+  height: 24px;
+
+  opacity: 1;
+}
+.leaf_icon_sus_growth {
+  position: absolute;
+  top: 18px;
+  left: 235px;
+  width: 29px;
+  height: 23px;
+
+  color: #fa3352 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.house_icon_qua_pract {
+  position: absolute;
+  top: 18px;
+  left: 190px;
+  width: 23px;
+  height: 23px;
+
+  opacity: 1;
+}
 .summary {
   position: relative;
   top: 300px;
 }
 
-.booster {
-  position: relative;
-  top: 300px;
+.booster_header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: block;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 250;
+  color: #FAFAFA;
+  opacity: 100%;
 }
 
 .large_tree {
-  position: relative;
-  top: 20px;
-  left: 350px;
-  height: 450px;
+  position: absolute;
+  top: -55px;
+  left: 240px;
+  height: 520px;
+}
+
+.large_battery {
+  position: absolute;
+  top: 4px;
+  left: 420px;
+  height: 350px;
 }
 
 .large_house {
-  position: relative;
-  top: 35px;
-  left: 380px;
-  width: 261px;
-  height: 440px;
+  position: absolute;
+  top: -55px;
+  left: 220px;
+  height: 520px;
 }
 
-.b1_second_background {
+.b2_background {
   position: absolute;
-  top: 1159px;
-  left: -80px;
-  width: 589px;
+  top: 10px;
+  left: 555px;
+  width: 489px;
   height: 245px;
   border-radius: 25px;
-
-  background: transparent url('First\ Booster/b1_second_background.png') 0% 0% no-repeat padding-box;
+  background-color: #F93352;
   opacity: 1;
 }
 
 .b1_background {
   position: absolute;
   top: 10px;
-  left: 230px;
-  width: 589px;
-  height: 345px;
+  left: 355px;
+  width: 489px;
+  height: 245px;
+  background-color: #F86438;
 
-  background: transparent url('First Booster/b1_background.png') 0% 0% no-repeat padding-box;
   box-shadow: 2px 13px 54px #695f9726;
   border-radius: 25px;
   opacity: 1;
 }
 
-.booster_one {
-  position: absolute;
-  top: 90px;
-  left: 110px;
-  width: 61px;
-  height: 20px;
-
-  background: transparent url('First Booster/Booster_one.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-
-.booster_two {
-  position: absolute;
-  top: 90px;
-  left: 110px;
-  width: 70px;
-  height: 20px;
-
-  background: transparent url('Second Booster/Booster_two.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-
-.booster_three {
-  position: absolute;
-  top: 90px;
-  left: 110px;
-  width: 70px;
-  height: 20px;
-
-  background: transparent url('Third Booster/Booster_three.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
 
 .LWDP_Count {
   position: absolute;
-  top: 105px;
-  left: 110px;
-  width: 132px;
+  top: 30px;
+  left: 20px;
+  width: 259px;
   height: 31px;
+  font-family: Poppins, Bold;
+  font-size: 22px;
+  color: #FAFAFA;
 
-  background: transparent url('First Booster/LWDP_Count.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
+  opacity: 100;
 }
 
 .HouseviewInvestments {
   position: absolute;
-  top: 105px;
-  left: 110px;
-  width: 262px;
+  top: 25px;
+  left: 20px;
+  font-family: Poppins, Bold;
   height: 31px;
-
-  background: transparent url('Second Booster/HouseviewInvestments.png') 0% 0% no-repeat padding-box;
+  color: #FAFAFA;
+  font-size: 22px;
   opacity: 1;
 }
 
@@ -373,7 +408,8 @@
   width: 262px;
   height: 31px;
 
-  background: transparent url('Third Booster/Practice_IRR.png') 0% 0% no-repeat padding-box;
+  background: transparent url('Third Booster/Practice_IRR.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
@@ -384,7 +420,8 @@
   width: 347px;
   height: 84px;
 
-  background: transparent url('First Booster/Points.png') 0% 0% no-repeat padding-box;
+  background: transparent url('First Booster/Points.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
@@ -395,9 +432,9 @@
   width: 347px;
   height: 84px;
 
-  background: transparent url('Second Booster/Points.png') 0% 0% no-repeat padding-box;
+  background: transparent url('Second Booster/Points.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
-
 }
 
 .b3_Points {
@@ -407,7 +444,8 @@
   width: 347px;
   height: 84px;
 
-  background: transparent url('Third Booster/Points.png') 0% 0% no-repeat padding-box;
+  background: transparent url('Third Booster/Points.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
@@ -418,14 +456,15 @@
   width: 338px;
   height: 25px;
 
-  background: transparent url('First Booster/Points_Earned.png') 0% 0% no-repeat padding-box;
+  background: transparent url('First Booster/Points_Earned.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
 .View_Details_bacground {
   position: absolute;
-  top: 265px;
-  left: 60px;
+  top: 200px;
+  left: -10px;
   width: 177px;
   height: 30px;
 
@@ -433,55 +472,45 @@
   font: normal normal normal 14px/60px Poppins;
   letter-spacing: 0px;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 0px 25px 25px 0px;
   opacity: 1;
 }
 
 .View_Details {
-  position: absolute;
-  top: 5px;
-  left: 60px;
+  position: relative;
+  top: -15px;
+  left: 50px;
   width: 98px;
   height: 20px;
-
-  background: transparent url('First Booster/View_detail.png') 0% 0% no-repeat padding-box;
+  background-color: white;
+  border-radius: 25px 20px 25px 25px;
   opacity: 1;
 }
 
 .NavLogo {
   position: absolute;
-  top: 68px;
-  left: 80px;
+  top: 1px;
+  left: 5px;
   width: 489px;
   height: 245px;
 
-  background: transparent url('First Booster/Nav_logo.png') 0% 0% no-repeat padding-box;
+  background: transparent url('NAV_LOGO.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
 .triangles {
-
   position: absolute;
   top: 29px;
-  left: 430px;
+  left: 427px;
   width: 33px;
   height: 188px;
 
-  background: transparent url('First Booster/triangles.png') 0% 0% no-repeat padding-box;
+  background: transparent url('First Booster/triangles.png') 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
-.b2_background {
-  position: absolute;
-  top: 10px;
-  left: 760px;
-  width: 600px;
-  height: 345px;
-  border-radius: 25px;
-
-  background: transparent url('Second Booster/background.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
 
 .b3_background {
   position: absolute;
@@ -491,6 +520,119 @@
   height: 345px;
   border-radius: 25px;
 
-  background: transparent url('Third Booster/b3_background.png') 0% 0% no-repeat padding-box;
+  background: transparent url('Third Booster/b3_background.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.client_experience_Points {
+  position: relative;
+  top: 130px;
+  left: 5px;
+  width: 463px;
+  height: 43px;
+
+  text-align: left;
+  font: normal normal bold 30px/60px Poppins;
+  letter-spacing: 0px;
+  color: #f86438;
+  opacity: 1;
+}
+
+.sus_client_experience_Points {
+  position: relative;
+  top: 130px;
+  left: 5px;
+  width: 463px;
+  height: 43px;
+
+  text-align: left;
+  font: normal normal bold 30px/60px Poppins;
+  letter-spacing: 0px;
+  color: #fa3352;
+  opacity: 1;
+}
+
+.quality_clnt_experience_Points {
+  position: relative;
+  top: 130px;
+  left: 5px;
+  width: 463px;
+  height: 43px;
+
+  text-align: left;
+  font: normal normal bold 30px/60px Poppins;
+  letter-spacing: 0px;
+  color: #b00020;
+  opacity: 1;
+}
+.of_total {
+  position: relative;
+  top: 130px;
+  left: 5px;
+  width: 463px;
+  height: 43px;
+
+  text-align: left;
+  font-family: Poppins, Medium;
+  font-size: 30px;
+  color: #000000;
+  opacity: 1;
+}
+.points_per_cylce {
+  position: relative;
+  top: 120px;
+  left: 5px;
+
+  width: 338px;
+  height: 25px;
+
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 18px/60px Poppins;
+  letter-spacing: -0.45px;
+  color: #000000;
+  opacity: 1;
+}
+
+.booster_points_per_cylce{
+
+  position: relative;
+  top: 63px;
+  left: 15px;
+
+  width: 338px;
+  height: 25px;
+
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  font: normal normal normal 18px/60px Poppins;
+  letter-spacing: -0.45px;
+  color: #000000;
+  opacity: 1;
+
+}
+.earn_more {
+  position: relative;
+  top: 150px;
+  left: 5px;
+  height: 20px;
+
+  text-align: left;
+  font: normal normal normal 14px/60px Poppins;
+  letter-spacing: 0px;
+  color: #73777a;
+}
+
+._Points{
+  position: relative;
+  top: 100px;
+  left: 15px;
+  width: 347px;
+  height: 84px;
+  
+  font-family: Poppins, Medium;
+  font-size: 50px;
+  color: #FAFAFA;
   opacity: 1;
 }
