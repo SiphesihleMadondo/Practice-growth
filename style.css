@@ -39,6 +39,7 @@
   top: 20px;
   left: 36px;
 }
+
 .sub-conent-first-text {
   position: relative;
   font-size: 12px;
@@ -69,7 +70,7 @@
   left: 75px;
   width: 463px;
   height: 43px;
-  /* UI Properties */
+  
   text-align: left;
   font: normal normal bold 30px/60px Poppins;
   letter-spacing: 0px;
@@ -157,9 +158,8 @@
   left: 130px;
   width: 69px;
   height: 69px;
-  /* UI Properties */
-  background: transparent url('blue_status_circle.png') 0% 0% no-repeat
-    padding-box;
+
+  background: transparent url('blue_status_circle.png') 0% 0% no-repeat padding-box;
   border: 1px solid #e9e7ee;
   opacity: 1;
 }
@@ -171,8 +171,7 @@
   width: 51px;
   height: 46px;
 
-  background: transparent url('group_icon_small.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('group_icon_small.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -226,8 +225,7 @@
   width: 642px;
   height: 23px;
 
-  background: transparent url('fourthy_points_silver_status.png') 0% 70%
-    no-repeat padding-box;
+  background: transparent url('fourthy_points_silver_status.png') 0% 70% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -238,8 +236,7 @@
   width: 600px;
   height: 411px;
 
-  background: transparent url('client_experience_summary.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('client_experience_summary.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -250,8 +247,7 @@
   width: 650px;
   height: 411px;
 
-  background: transparent url('sustainable_growth_summary.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('sustainable_growth_summary.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -261,22 +257,21 @@
   left: 1280px;
   width: 665px;
   height: 411px;
-  background: transparent url('Quality_Practice_Summary.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Quality_Practice_Summary.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.summary{
+.summary {
 
   position: relative;
   top: 300px;
-  
+
 }
 
-.booster{
+.booster {
   position: relative;
   top: 300px;
- 
+
 }
 
 .large_tree {
@@ -302,8 +297,7 @@
   height: 245px;
   border-radius: 25px;
 
-  background: transparent url('First\ Booster/b1_second_background.png') 0% 0%
-    no-repeat padding-box;
+  background: transparent url('First\ Booster/b1_second_background.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -314,81 +308,75 @@
   width: 589px;
   height: 345px;
 
-  background: transparent url('First Booster/b1_background.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/b1_background.png') 0% 0% no-repeat padding-box;
   box-shadow: 2px 13px 54px #695f9726;
   border-radius: 25px;
   opacity: 1;
 }
 
-.booster_one{
+.booster_one {
   position: absolute;
   top: 90px;
   left: 110px;
   width: 61px;
   height: 20px;
 
-  background: transparent url('First Booster/Booster_one.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/Booster_one.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.booster_two{
+.booster_two {
   position: absolute;
   top: 90px;
   left: 110px;
   width: 70px;
   height: 20px;
 
-  background: transparent url('Second Booster/Booster_two.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Second Booster/Booster_two.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.booster_three{
+.booster_three {
   position: absolute;
   top: 90px;
   left: 110px;
   width: 70px;
   height: 20px;
 
-  background: transparent url('Third Booster/Booster_three.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Third Booster/Booster_three.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.LWDP_Count{
+.LWDP_Count {
   position: absolute;
   top: 105px;
   left: 110px;
   width: 132px;
   height: 31px;
 
-  background: transparent url('First Booster/LWDP_Count.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/LWDP_Count.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.HouseviewInvestments{
+
+.HouseviewInvestments {
   position: absolute;
   top: 105px;
   left: 110px;
   width: 262px;
   height: 31px;
 
-  background: transparent url('Second Booster/HouseviewInvestments.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Second Booster/HouseviewInvestments.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.Practice_IRR{
+.Practice_IRR {
   position: absolute;
   top: 105px;
   left: 110px;
   width: 262px;
   height: 31px;
 
-  background: transparent url('Third Booster/Practice_IRR.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Third Booster/Practice_IRR.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -399,32 +387,30 @@
   width: 347px;
   height: 84px;
 
-  background: transparent url('First Booster/Points.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/Points.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.b2_Points{
+
+.b2_Points {
   position: absolute;
   top: 140px;
   left: 110px;
   width: 347px;
   height: 84px;
 
-  background: transparent url('Second Booster/Points.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Second Booster/Points.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 
 }
 
-.b3_Points{
+.b3_Points {
   position: absolute;
   top: 140px;
   left: 110px;
   width: 347px;
   height: 84px;
 
-  background: transparent url('Third Booster/Points.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('Third Booster/Points.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -435,8 +421,7 @@
   width: 338px;
   height: 25px;
 
-  background: transparent url('First Booster/Points_Earned.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/Points_Earned.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -462,8 +447,7 @@
   width: 98px;
   height: 20px;
 
-  background: transparent url('First Booster/View_detail.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/View_detail.png') 0% 0% no-repeat padding-box;
   /* background-color: #e1dfe9; */
   opacity: 1;
 }
@@ -475,8 +459,7 @@
   width: 489px;
   height: 245px;
 
-  background: transparent url('First Booster/Nav_logo.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('First Booster/Nav_logo.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -492,7 +475,7 @@
   opacity: 1;
 }
 
-.b2_background{
+.b2_background {
   position: absolute;
   top: 10px;
   left: 760px;
@@ -500,12 +483,11 @@
   height: 345px;
   border-radius: 25px;
 
-  background: transparent url('Second Booster/background.png') 0% 0%
-    no-repeat padding-box;
+  background: transparent url('Second Booster/background.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
-.b3_background{
+.b3_background {
   position: absolute;
   top: 10px;
   left: 1280px;
@@ -513,10 +495,6 @@
   height: 345px;
   border-radius: 25px;
 
-  background: transparent url('Third Booster/b3_background.png') 0% 0%
-    no-repeat padding-box;
+  background: transparent url('Third Booster/b3_background.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-
-
-
