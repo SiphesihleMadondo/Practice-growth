@@ -181,7 +181,7 @@
   left: 145px;
   width: 131px;
   height: 27px;
-  /* UI Properties */
+  
   background: transparent url('blue_status.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -192,7 +192,7 @@
   left: 518.14px;
   width: 106px;
   height: 27px;
-  /* UI Properties */
+
   background: transparent url('silver_status.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -202,7 +202,7 @@
   left: 902.86px;
   width: 106px;
   height: 27px;
-  /* UI Properties */
+
   background: transparent url('gold_status.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -213,7 +213,7 @@
   left: 1246px;
   width: 138px;
   height: 27px;
-  /* UI Properties */
+
   background: transparent url('platinum_status.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -262,16 +262,13 @@
 }
 
 .summary {
-
   position: relative;
   top: 300px;
-
 }
 
 .booster {
   position: relative;
   top: 300px;
-
 }
 
 .large_tree {
@@ -448,7 +445,6 @@
   height: 20px;
 
   background: transparent url('First Booster/View_detail.png') 0% 0% no-repeat padding-box;
-  /* background-color: #e1dfe9; */
   opacity: 1;
 }
 
