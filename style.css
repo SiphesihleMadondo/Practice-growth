@@ -10,14 +10,16 @@
   border-radius: 20px;
 }
 
-.your-score-content {
+.your-score {
   position: relative;
   left: 36px;
   top: 16px;
   height: 20px;
 
+  font-family: Poppins, Regular;
+  font-size: 14px;
   width: 75px;
-  background: transparent url('Score.png') 0% 0% no-repeat padding-box;
+  color: #73777a;
   opacity: 1;
 }
 
@@ -28,7 +30,8 @@
   width: 110px;
   height: 31px;
   color: #000000;
-  background: transparent url('Summary.png') 0% 0% no-repeat padding-box;
+  font-family: Poppins, Bold;
+  font-size: 22px;
   opacity: 100;
 }
 
@@ -77,9 +80,9 @@
   opacity: 1;
 }
 
-.Points {
+.progress {
   position: relative;
-  left: 2%;
+  left: 36px;
   top: 58px;
   background-color: #fa3352;
   height: 44px;
@@ -94,7 +97,7 @@
   left: 36px;
 }
 
-.booster{
+.booster {
   position: relative;
   top: 320px;
 }
@@ -174,8 +177,7 @@
   width: 69px;
   height: 69px;
 
-  background: transparent url('blue_status_circle.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('blue_status_circle.png') 0% 0% no-repeat padding-box;
   border: 1px solid #e9e7ee;
   opacity: 1;
 }
@@ -187,8 +189,7 @@
   width: 51px;
   height: 46px;
 
-  background: transparent url('group_icon_small.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('group_icon_small.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -281,7 +282,7 @@
   left: 1420px;
   width: 450px;
   height: 350px;
- 
+
   border-radius: 25px;
   opacity: 1;
 }
@@ -295,6 +296,7 @@
 
   opacity: 1;
 }
+
 .leaf_icon_sus_growth {
   position: absolute;
   top: 18px;
@@ -305,6 +307,7 @@
   color: #fa3352 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+
 .house_icon_qua_pract {
   position: absolute;
   top: 18px;
@@ -314,6 +317,7 @@
 
   opacity: 1;
 }
+
 .summary {
   position: relative;
   top: 300px;
@@ -327,7 +331,7 @@
   font-family: Poppins;
   font-size: 14px;
   font-weight: 250;
-  color: #FAFAFA;
+  color: #fafafa;
   opacity: 100%;
 }
 
@@ -355,27 +359,26 @@
 .b2_background {
   position: absolute;
   top: 10px;
-  left: 555px;
+  left: 545px;
   width: 489px;
   height: 245px;
   border-radius: 25px;
-  background-color: #F93352;
+  background-color: #f93352;
   opacity: 1;
 }
 
 .b1_background {
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 355px;
   width: 489px;
   height: 245px;
-  background-color: #F86438;
+  background-color: #f86438;
 
   box-shadow: 2px 13px 54px #695f9726;
   border-radius: 25px;
   opacity: 1;
 }
-
 
 .LWDP_Count {
   position: absolute;
@@ -385,7 +388,7 @@
   height: 31px;
   font-family: Poppins, Bold;
   font-size: 22px;
-  color: #FAFAFA;
+  color: #fafafa;
 
   opacity: 100;
 }
@@ -396,44 +399,8 @@
   left: 20px;
   font-family: Poppins, Bold;
   height: 31px;
-  color: #FAFAFA;
+  color: #fafafa;
   font-size: 22px;
-  opacity: 1;
-}
-
-.Practice_IRR {
-  position: absolute;
-  top: 105px;
-  left: 110px;
-  width: 262px;
-  height: 31px;
-
-  background: transparent url('Third Booster/Practice_IRR.png') 0% 0% no-repeat
-    padding-box;
-  opacity: 1;
-}
-
-.B1_Points {
-  position: absolute;
-  top: 140px;
-  left: 110px;
-  width: 347px;
-  height: 84px;
-
-  background: transparent url('First Booster/Points.png') 0% 0% no-repeat
-    padding-box;
-  opacity: 1;
-}
-
-.b2_Points {
-  position: absolute;
-  top: 140px;
-  left: 110px;
-  width: 347px;
-  height: 84px;
-
-  background: transparent url('Second Booster/Points.png') 0% 0% no-repeat
-    padding-box;
   opacity: 1;
 }
 
@@ -444,20 +411,6 @@
   width: 347px;
   height: 84px;
 
-  background: transparent url('Third Booster/Points.png') 0% 0% no-repeat
-    padding-box;
-  opacity: 1;
-}
-
-.Points_Earned {
-  position: absolute;
-  top: 205px;
-  left: 110px;
-  width: 338px;
-  height: 25px;
-
-  background: transparent url('First Booster/Points_Earned.png') 0% 0% no-repeat
-    padding-box;
   opacity: 1;
 }
 
@@ -494,8 +447,7 @@
   width: 489px;
   height: 245px;
 
-  background: transparent url('NAV_LOGO.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('NAV_LOGO.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -506,22 +458,18 @@
   width: 33px;
   height: 188px;
 
-  background: transparent url('First Booster/triangles.png') 0% 0% no-repeat
-    padding-box;
+  background: transparent url('triangles.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-
 
 .b3_background {
   position: absolute;
   top: 10px;
-  left: 1280px;
-  width: 600px;
-  height: 345px;
+  left: 1070px;
+  width: 489px;
+  height: 245px;
+  background-color: #b00020;
   border-radius: 25px;
-
-  background: transparent url('Third Booster/b3_background.png') 0% 0% no-repeat
-    padding-box;
   opacity: 1;
 }
 
@@ -566,6 +514,7 @@
   color: #b00020;
   opacity: 1;
 }
+
 .of_total {
   position: relative;
   top: 130px;
@@ -579,6 +528,7 @@
   color: #000000;
   opacity: 1;
 }
+
 .points_per_cylce {
   position: relative;
   top: 120px;
@@ -595,8 +545,7 @@
   opacity: 1;
 }
 
-.booster_points_per_cylce{
-
+.booster_points_per_cylce {
   position: relative;
   top: 63px;
   left: 15px;
@@ -610,8 +559,8 @@
   letter-spacing: -0.45px;
   color: #000000;
   opacity: 1;
-
 }
+
 .earn_more {
   position: relative;
   top: 150px;
@@ -624,15 +573,26 @@
   color: #73777a;
 }
 
-._Points{
+._Points {
   position: relative;
   top: 100px;
   left: 15px;
   width: 347px;
   height: 84px;
-  
+
   font-family: Poppins, Medium;
   font-size: 50px;
-  color: #FAFAFA;
+  color: #fafafa;
+  opacity: 1;
+}
+
+.Practice_IRR {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-family: Poppins, Bold;
+  height: 31px;
+  color: #fafafa;
+  font-size: 22px;
   opacity: 1;
 }
